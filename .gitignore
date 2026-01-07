@@ -1,0 +1,12 @@
+# VS Code
+.vscode/
+
+# Maven
+target/
+.mvn/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

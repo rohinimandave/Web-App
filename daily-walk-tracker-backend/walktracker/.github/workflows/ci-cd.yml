@@ -19,4 +19,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Build Spring Boot backend
-        run: mvn clean package -DskipTests
+  run: |
+    cd daily-walk-tracker-backend/walktracker
+    mvn clean package -DskipTests

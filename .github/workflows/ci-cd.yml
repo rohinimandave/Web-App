@@ -21,4 +21,5 @@ jobs:
       - name: Build Spring Boot backend
         run: |
           cd daily-walk-tracker-backend/walktracker
+          chmod +x mvnw
           ./mvnw clean package -DskipTests
